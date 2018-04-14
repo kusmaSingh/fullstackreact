@@ -7,6 +7,4 @@ app.get('/user' , (req, res)=>{
   });
 });
 
-app.listen(5000, ()=>{
-  console.log("server is connnected on port localhos:5000")
-})
+app.listen(PORT)
