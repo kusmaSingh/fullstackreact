@@ -4,6 +4,6 @@ if(process.env.NODE_ENV === 'production'){
     module.exports = require('./prod');
 }else
 {
-    module.exports = require('./prod');
+    module.exports = require('./dev');
    //we are in developement envirnomet - return dev set of keys
 }
