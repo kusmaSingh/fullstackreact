@@ -9,7 +9,7 @@ require('./services/passport');
 mongoose.Promise = global.Promise;
 
 // Connecting to the database
-mongoose.connect(keys.mongoLocalDbURI)
+mongoose.connect(keys.mongoURI)
     .then(() => {
         console.log("Successfully connected to the database");
     }).catch(err => {
