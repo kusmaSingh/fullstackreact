@@ -5,6 +5,7 @@ module.exports = {
     googleClientSecret: "Agd68i_1KibBBtIPJ8cGXstp",
     mongoURI: "mongodb://localhost:27017/emaily-dev",
     mongoLocalDbURI: "mongodb://localhost:27017/emaily-dev",
-    cookieKey: "hgdfuw123rhdl231kjhhjf45guefkjjjk234fhljkhhkjyuuyu"
+    cookieKey: "hgdfuw123rhdl231kjhhjf45guefkjjjk234fhljkhhkjyuuyu",
+    googleRedirectDomain : "localhost:5000"
 }
 

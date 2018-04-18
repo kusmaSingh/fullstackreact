@@ -2,7 +2,8 @@ module.exports = {
     googleClientID: process.env.GOOGLE_CLIENT_ID,
     googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
     mongoURI: process.env.MONGO_URI,
-    cookieKey: process.env.COOKIE_KEY,
+    cookieKey: process.env.COOKIE_KEY
+  // googleRedirectDomain : 'https://fierce-springs-74537.herokuapp.com'
 
 }
 /* googleClientID: "732706155788-f1jp8h15qrd0bsj0m277eequmj2njv7o.apps.googleusercontent.com",
