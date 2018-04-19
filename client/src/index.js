@@ -15,3 +15,4 @@ ReactDOM.render(
     <Provider store={store}><App /></Provider>,
     document.querySelector('#root')
 );
+console.log("Stripe keys are: "+ process.env.REACT_APP_STRIPE_KEY + process.env.NODE_ENV  );
